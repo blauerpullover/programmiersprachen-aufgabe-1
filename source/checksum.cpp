@@ -14,7 +14,7 @@ int quersumme(int a){
   while(a != 0){
 
         c = a % 10;
-        a -= c;
+        //a -= c;
       	checksum += c;
       	a /= 10;
      

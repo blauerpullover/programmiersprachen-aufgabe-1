@@ -3,12 +3,12 @@
 #include <iostream> // contains "std::cout" (& more)
 #include <string>   // contains "std::string" (& more)
 
-int factorial(int number){
+long int factorial(int number){
     if(number < 0){
         return -1;
     }
 
-    long int fac = (number);
+    long int fac = number;
     if((number) == 0){
         fac = 1;
         return fac;

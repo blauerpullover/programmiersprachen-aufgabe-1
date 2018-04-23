@@ -6,9 +6,8 @@ int sumMultiples(int number){
     int sum = 0;
     for(int i = 1; i <= number; i++){
         
-        while(i % 5 == 0 || i % 3 == 0){
+        if(i % 5 == 0 || i % 3 == 0){
             sum += i;
-            break;
         }
     }
     return sum;
